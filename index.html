@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+  <div id="stats">
+    <div id="timer">
+      Time:<div id="minutes">
+        0
+      </div>:
+      <div id="seconds">
+        0
+      </div>
+    </div>
+    <div class="tries">Tries:<div id="tries">0</div>
+    </div>
+  </div>
+
+  <div class="start popup" id="start-popup">
+    <h1><span class="memory">Memory</span><span class="card">Card</span></h1>
+    <h2>Welcome to MemoryCard game!</h2>
+    <button id="start">Start</button>
+  </div>
+
+  <div class="winning popup" id="winning-popup">
+    <h2>Congratulations!</h2>
+    <div class="results">
+      <div id="resultTime">
+        <div id="resultMinutes">
+          0
+        </div>
+        <div id="resultSeconds">
+          0
+        </div>
+      </div>
+      <div id="resultTries">
+        <div id="resultTries">
+          0
+        </div>
+      </div>
+    </div>
+    <img src="src/assets/happy_monkey.jpg" alt="congratulations image">
+    <button id="restart">Restart</button>
+  </div>
+</body>
+
+</html>
